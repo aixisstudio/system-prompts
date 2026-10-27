@@ -1,0 +1,40 @@
+# Ai Video Tools
+
+[English](README.md) | **Français** | [Español](README.es.md) | [中文](README.zh-CN.md) | [日本語](README.ja.md) | [Русский](README.ru.md)
+
+Génération et édition vidéo IA — alternatives à Sora et open source
+
+_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
+
+## 🎬 Generation
+| Tool | Note |
+|---|---|
+| [Sora](https://openai.com/sora) | OpenAI's flagship — cinematic quality |
+| [Runway Gen-3](https://runwayml.com/) | Pro-grade, editing suite included |
+| [Pika](https://pika.art/) | Fast, accessible, stylized |
+| [Luma Dream Machine](https://lumalabs.ai/) | Fast realistic clips |
+| [Kling](https://klingai.com/) | Strong physics & motion |
+| [Hailuo/MiniMax](https://hailuoai.video/) | Underrated quality |
+
+## 🧪 Open source / local
+| Tool | Note |
+|---|---|
+| [CogVideoX](https://github.com/THUDM/CogVideo) | Open-weights T2V |
+| [AnimateDiff](https://github.com/guoyww/AnimateDiff) | Animate SD pipelines |
+| [Deforum](https://github.com/deforum-art/deforum-stable-diffusion) | Trippy animation workflows |
+| [Stable Video Diffusion](https://github.com/Stability-AI/generative-models) | Image→video |
+
+## ✂️ Editing & avatars
+| Tool | Note |
+|---|---|
+| [HeyGen](https://www.heygen.com/) | Talking avatars, translation |
+| [Captions](https://www.captions.ai/) | Auto captions + AI edits |
+| [Descript](https://www.descript.com/) | Edit video by editing text |
+| [Topaz](https://www.topazlabs.com/) | Upscaling & enhancement |
+
+---
+## Contribuer
+
+Les pull requests sont les bienvenues : ouvre une PR, elle sera relue et fusionnée. Maintenu par [aixisstudio](https://github.com/aixisstudio), auteur de [Snitch](https://github.com/aixisstudio/Snitch), pare-feu applicatif open source.
+
+## Licence: MIT
