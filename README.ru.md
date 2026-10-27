@@ -32,6 +32,24 @@ _Подробное содержимое (списки, ссылки, описа
 | [Descript](https://www.descript.com/) | Edit video by editing text |
 | [Topaz](https://www.topazlabs.com/) | Upscaling & enhancement |
 
+## 🎥 Generation (extras)
+
+| Tool | Focus |
+|---|---|
+| [Hailuo/MiniMax](https://hailuoai.video/) | Strong motion |
+| [Vidu](https://www.vidu.com/) | Character consistency |
+| [Pika](https://pika.art/) | Fast ideation |
+| [Gen-3 Alpha](https://runwayml.com/) | Runway flagship |
+
+## 🛠️ Workflow stack
+
+- **Script**: ChatGPT/Claude
+- **Voice**: ElevenLabs
+- **Visuals**: Midjourney/Flux → Runway/Kling
+- **Edit**: CapCut / DaVinci Resolve
+- **Captions**: Whisper → auto-SRT
+- **Avatars**: HeyGen / Synthesia / D-ID
+
 ---
 ## Участие
 
