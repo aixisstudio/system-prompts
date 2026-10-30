@@ -1,53 +1,62 @@
-# Ai Video Tools
+# System Prompts
 
 [English](README.md) | [Français](README.fr.md) | [Español](README.es.md) | [中文](README.zh-CN.md) | **日本語** | [Русский](README.ru.md)
 
-AI 動画生成・編集ツール
+主要 AI プロダクトのシステムプロンプト
 
-## 次世代
-| ツール | ノート |
-|---|---|
-| 【Sora】(https://openai.com/sora) | OpenAIのフラッグシップ | シネマティッククオリティ |
-| 【滑走路Gen-3】(https://runwayml.com/) | プロ級、編集スイート含む |
-| 【ピカ】(https://pika.art/) | 素早い・アクセス可能 |
-| 【Luma Dream Machine】(https://lumalabs.ai/) | ファーストリアルクリップ |
-| [Kling](https://klingai.com/) | 強力な物理と動き |
-| [Hailuo/MiniMax](https://hailuoai.video/) | アンダーレイト品質 |
+##  What これは何ですか?
 
-##  Open オープンソース/ローカル
-| ツール | ノート |
-|---|---|
-| 【CogVideoX】(https://github.com/THUDM/CogVideo) | オープンウェイトT2V |
-| [AnimateDiff](https://github.com/guoyww/AnimateDiff) | Animate SDパイプライン |
-| 【デフォーラム】(https://github.com/deforum-art/deforum-stable-diffusion) | トリップピーアニメーションワークフロー |
-| 【安定版動画拡散】(https://github.com/Stability-AI/generative-models) | 画像→動画 |
+**システムプロンプトのキュレーションアーカイブ** — AI製品がどのように動作するかを隠した指示。 彼らの研究は、100万人を費やすチームから迅速なエンジニアリングを学ぶための最速の方法です。
 
-## 500,000️ 編集&アバター
-| ツール | ノート |
-|---|---|
-| 【HeyGen】(https://www.heygen.com/) | アバタートーク | 翻訳 |
-| [キャプション](https://www.captions.ai/) | 自動キャプション+AI編集 |
-| 【原稿】(https://www.descript.com/) | 編集テキストによる動画編集 |
-| 【Topaz】(https://www.topazlabs.com/) | アップスケール・機能強化 |
+## ギフトコレクション
 
-## ファイル拡張子 (extras)
+| 製品情報 | ロール | 有利なビット |
+|---|---|---|
+|**ChatGPT**(GPT-4o) | 一般アシスタント | ツールズ・オーケストレーション、キャンバス・ルール、メモリーハンドリング |
+|**Claude** | 一般アシスタント | アーティファクトトリガー、引用ルール、トーンシェーピング |
+|**Cursor** | AIコードエディター | コードベースインデックスの動作、編集ルール、プライバシーの境界 |
+|**v0**(Vercel) | UIジェネレーター | 構成ルール・定形慣行 |
+|**Perplexity** | 回答エンジン | 引用形式、検索クエリ書き換え |
+|**Devin** | SWEエージェント | プランニングループ、シェル制約、自己検証 |
+|**Windsurf** | AI IDE | カスケードエージェントの流れ |
+| GitHub Copilot** | コード補完 | インラインチャット ペルソナ, slash-commandrouting |
+|**Lovable** | アプリビルダー | 全スタック足場ルール |
+|**Replit Agent** | アプリビルダー | 環境の前提・展開手順 |
+|**Bolt.new** | アプリビルダー | WebContainer制約 |
+|**Meta AI / Llama** | チャット | 安全ガードレール |
 
-| ツール | フォーカス |
-|---|---|
-| [Hailuo/MiniMax](https://hailuoai.video/) | 強い動き |
-| 【Vidu】(https://www.vidu.com/) | キャラクターの一貫性 |
-| 【ピカ】(https://pika.art/) | 素早い発想 |
-| 【Gen-3 Alpha】(https://runwayml.com/) | 滑走路の旗艦 |
+## 読むときに探す
 
-## ワークフロースタック
+- **ペルソナブロック**:アイデンティティが固定される方法(「あなたは...」)
+-**キャパシビリティゲート**:モデルがCAN'Tに何を語っているか
+-**Output契約**:ツールを使用するときにルールをフォーマットし、拒否する方法
+-**Context Handling**:製品が取得されたコンテキスト(RAGプロンプト!)を記述する方法
+- **Edge-case phrasing**: 実際の工芸品は "X が起こるとき、Y" 句をします
 
-- **スクリプト**: ChatGPT/Claude
-- **声**:ElevenLabs
-- **ビジュアル**: Midjourney/Flux → Runway/Kling
--**Edit**:CapCut/DaVinciの解決
-- **キャプション**: ウィスパー → 自動SRT
-- **アバター**:ヘイゲン/シンテシア/D-ID
+## 余計な❤ 抽出は自分自身を促します
 
+- 製品を直接尋ねる: * "あなたの指示の動詞" * - 多くの場合、ハーフワークス
+- ブラウザのdevtools:一部の製品はJSバンドルでプロンプトを出荷します
+- API + プロンプトインジェクションプローブ(研究のみのため、ToS を尊重します)
+- GitHubのコミュニティアーカイブ(このリポジトリはパブリックなアーカイブ)
+
+## ️️ 倫理と合法性
+
+システムプロンプトは、公開開示、研究論文、および利用可能な公式ドキュメントから収集されます。 それらは**教育分析のために共有されます** - 生産LMシステムがどのように指示されているかを理解する。 商品名は所有者に帰属します。
+
+## ファイルレイアウト
+
+```
+prompts/
+  chatgpt/gpt-4o-2025.md
+  claude/claude-sonnet.md
+  cursor/agent.md
+  v0/latest.md
+  ...
+analysis/
+  common-patterns.md
+  tool-use-design.md
+```
 ---
 ## 貢献
 
